@@ -1,0 +1,24 @@
+{
+    "serverlessConsole.services": [
+        {
+            "type": "dynamodb",
+            "title": "apiExample-MyTable-KHRX0JVH9N6K",
+            "tableName": "apiExample-MyTable-KHRX0JVH9N6K",
+            "awsProfile": "default",
+            "region": "us-east-2"
+        },
+        {
+            "type": "cloudformation",
+            "title": "DEV logs",
+            "timeOffsetInMs": 0,
+            "awsProfile": "default",
+            "stacks": [
+                {
+                    "region": "us-east-2",
+                    "stackName": "apiExample",
+                    "stage": "dev"
+                }
+            ]
+        }
+    ]
+}
